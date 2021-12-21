@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://walldevblog.netlify.com'
 languageCode = 'en-us'
 title = 'Walldev'
 

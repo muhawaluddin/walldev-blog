@@ -10,9 +10,11 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Video Youtube</h5>
+            <hr>
+            <iframe height="250" src="https://www.youtube.com/embed/IJfeFnq0R54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="https://www.youtube.com/channel/UCMQYCc8eY7mLB8-7y_l2xfA">More Videos >></a>
         </div>
-        <iframe height="250" src="https://www.youtube.com/embed/IJfeFnq0R54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <a href="https://www.youtube.com/channel/UCMQYCc8eY7mLB8-7y_l2xfA">More Videos >></a>
+       
     </div>
     <br/>
     <!-- <div class="widget">
@@ -30,6 +32,7 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Tags</h5>
+            <hr>
             {{  with .Params.tags }}
                 {{range .}}
                     <li>
@@ -38,7 +41,6 @@
                 {{ end }}
             {{ end }}
         </div>
-        
     </div>
     
 </aside>
