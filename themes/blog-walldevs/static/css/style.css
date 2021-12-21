@@ -53,6 +53,7 @@ img .card-img-top{
 .card {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.80rem;
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
 }
 
 .judul-artikel {
