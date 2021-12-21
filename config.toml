@@ -13,4 +13,26 @@ theme = 'blog-walldevs'
     categories = "kategori"
     series = "seri"
 
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
 
+[menu]
+    [[menu.nav]]
+    identifier = "blog"
+    name = "Blog"
+    url = "blog.html"
+    weight = 1
+
+    [[menu.nav]]
+    identifier = "about"
+    name = "About"
+    url = "404.html"
+    weight = 2
+
+    [[menu.nav]]
+    identifier = "connect"
+    name = "Connect"
+    url = "/connect/"
+    weight = 3
