@@ -10,7 +10,7 @@ theme = 'blog-walldevs'
 
 [taxonomies]
     tag = "topik"
-    category = "kategori"
+    categories = "kategori"
     series = "seri"
 
 

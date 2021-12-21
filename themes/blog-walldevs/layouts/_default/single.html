@@ -23,17 +23,12 @@
                                     
                                     <div class="mb-3">
                                         <img src="/img/hugo-logo.png" class="rounded-circle" width="32" height="32" />
-                                        <a href="{{ .Site.Author.homepage }}">{{ .Site.Author.name }}</a> | <time>{{ .Date.Format "02-01-2006" }}</time>
+                                        <a href="{{ .Site.Author.homepage }}">Walldev</a> | <time>{{ .Date.Format "02-01-2006" }}</time>
                                     </div>
                                     <br/>
                                     <h2 class="card-title mb-3 judul-artikel">{{ .Title }}</h2>
 
                                     <hr>
-
-                                    <div>
-                                        <i class="far fa-comment-alt"></i>
-                                        <i class="fab fa-facebook"></i>
-                                    </div>
 
                                     <div>
                                         {{ range .Params.tags }}
