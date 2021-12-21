@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+
+        {{ partial "nav.html" . }}
+
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="container mb-5">
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-8 mb-5 card">
+                    <article>
+                        <div class="">
+                           <div class="card-body p-md-5">
+                                
+                               <div class="post-header mb-5">
+                                    
+                                    <div class="mb-3">
+                                        <img src="/img/hugo-logo.png" class="rounded-circle" width="32" height="32" />
+                                        <a href="{{ .Site.Author.homepage }}">{{ .Site.Author.name }}</a> | <time>{{ .Date.Format "02-01-2006" }}</time>
+                                    </div>
+                                    <br/>
+                                    <h2 class="card-title mb-3 judul-artikel">{{ .Title }}</h2>
+
+                                    <hr>
+
+                                    <div>
+                                        <i class="far fa-comment-alt"></i>
+                                        <i class="fab fa-facebook"></i>
+                                    </div>
+
+                                    <div>
+                                        {{ range .Params.tags }}
+                                        <span class="badge badge-info">
+                                             #<a class="text-white" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                                        </span> 
+                                        {{ end }}
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    {{ .Content }}
+                                </div>
+                                <div class="post-footer">
+                                    {{ partial "disqus.html" . }}
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                       {{ partial "aside.html" . }}
+                    </div>
+            </div>
+        </div>
+
+        {{ partial "footer.html" . }}
+        {{ partial "js-init.html" . }}
+    </body>
+</html>

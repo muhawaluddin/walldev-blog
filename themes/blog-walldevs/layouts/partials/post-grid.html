@@ -1,0 +1,40 @@
+<article class="card-post">
+    <div class="container">
+        <!-- <h1>Artikel Terbaru</h1>
+        <h5>Apa yang baru di Walldev?</h5> -->
+        <br/>
+        <div class="row">
+
+            {{ $paginator := .Paginate (where .Site.Pages "Type" "artikel") 6 }}
+            {{ range $paginator.Pages }}
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card">
+                        <a href="{{ .RelPermalink }}">
+                        <img class='card-img-top' 
+                            src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}'
+                            alt='{{ .Title }}'>
+                        </a>
+                        <div class="card-body judul-card">
+                            <h4 class="card-title">
+                                <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h4>
+                            {{ range .Params.tags }}
+                            <span class="badge badge-info">
+                                 #<a class="text-white" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                            </span> 
+                            {{ end }}
+                        </div>
+                    </div>
+
+                </div>
+            {{ end }}
+
+        </div>
+    </div>
+</article>
+
+<br>
+
+<div class="container">
+    {{ partial "pagination.html" . }}
+</div>

@@ -1,0 +1,16 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Walldev'
+
+themesDir = 'themes'
+theme = 'blog-walldevs'
+
+[permalinks]
+    artikel = "/:slug/"
+
+[taxonomies]
+    tag = "topik"
+    category = "kategori"
+    series = "seri"
+
+

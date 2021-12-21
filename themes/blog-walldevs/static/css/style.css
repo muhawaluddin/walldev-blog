@@ -1,0 +1,51 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.img-wall {
+    border: 7px solid;
+}
+
+.judul-card h4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight : 500;
+}
+
+.judul-card h4 a {
+    text-decoration: none;
+}
+
+.judul-card h4 a:hover {
+    color: rgb(26, 42, 136);
+}
+
+.post-header h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+
+.post-content  {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.post-content h2, 
+.post-content h3, 
+.post-content h4, 
+.post-content h5,
+.post-content h6 {
+    font-family: 'Rubik', sans-serif;
+    margin: 1em 0;
+}  
+
+.post-content img {
+    max-width: 100%;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.80rem;
+}
+
+.judul-artikel {
+    font-weight: 900;
+}
