@@ -1,11 +1,13 @@
 ---
 draft: false
-date: 2021-12-21T01:04:19+08:00
+date : 2021-12-21T01:03:53+08:00
 title: "Tutorial install Hugo + Netlify on linux"
 slug: Tutorial-install-Hugo
 
 tags:
     - Hugo
+    - HTML
+    - CSS
 
 categories:
     - Pemrograman

@@ -1,9 +1,9 @@
 <aside>
 
     <div class="card">
-        <img src="/img/hugo-logo.png" class="card-img-top" alt="...">
+        <img src="/img/wall.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Awal, orang biasa-biasa saja.</p>
         </div>
     </div>
     <br/>
@@ -14,6 +14,7 @@
         <iframe height="250" src="https://www.youtube.com/embed/IJfeFnq0R54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <a href="https://www.youtube.com/channel/UCMQYCc8eY7mLB8-7y_l2xfA">More Videos >></a>
     </div>
+    <br/>
     <!-- <div class="widget">
         <a href="https://muhawaluddin.com" target="_blank">
         <img src="https://media.istockphoto.com/photos/illustration-of-smiling-man-with-ok-gesture-showing-business-charts-picture-id1285083846?b=1&k=20&m=1285083846&s=170667a&w=0&h=H8nLeK9dJeVOC-LDBYlk58ZsrcIKwnzPTst77H5GPUo=" alt="Proyek Petani Kode"/>
@@ -26,4 +27,18 @@
             <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> 
            {{ end }}</button>
     </div> -->
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Tags</h5>
+            {{  with .Params.tags }}
+                {{range .}}
+                    <li>
+                        <a href="/tags/{{ . | urlize}}" >{{ . }} </a>
+                    </li>
+                {{ end }}
+            {{ end }}
+        </div>
+        
+    </div>
+    
 </aside>
