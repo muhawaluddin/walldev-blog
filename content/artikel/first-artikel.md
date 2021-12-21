@@ -17,13 +17,13 @@ thumbnail: https://media.istockphoto.com/photos/young-caucasian-female-programme
 
 ![](/img/hugo-logo.png)
 
-# Tutorial Install Hugo
+# Tutorial Install [Hugo](https://gohugo.io/) (Linux)
 
-## Step 1. Install Hugo
+## Step 1. Install [Hugo](https://gohugo.io/)
 
 Install Hugo menggunakan [brew](https://brew.sh/index_id).
 
-```bash
+```php
 brew install hugo
 # or
 port install hugo 
@@ -31,7 +31,7 @@ port install hugo
 
 Verifikasi Hugo version.
 
-```bash
+```php
 hugo version
 ```
 
@@ -39,7 +39,7 @@ hugo version
 
 Membuat new site dengan menggunakan perintah berikut :
 
-```bash
+```php
 hugo new site dir-name-site
 ```
 
@@ -47,7 +47,7 @@ hugo new site dir-name-site
 
 Menambahkan tema default [Ananke.](https://github.com/theNewDynamic/gohugo-theme-ananke.git)
 
-```bash
+```php
 cd dir-name-site
 git init
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
@@ -55,7 +55,7 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 
 Kemudian, tambahkan tema pada `config.toml`
 
-```bash
+```php
 theme = \"ananke\"
 ```
 
@@ -63,13 +63,13 @@ theme = \"ananke\"
 
 Anda bisa menambahkan konten secara manual dengan cara menambahkan file dengan ekstensi `.md` atau **markdown** ( contoh : `content/<Folder>/<File.md>` ) atau menggunakan cara berikut dengan perintah `new`
 
-```bash
+```php
 hugo new blog/blog-pertama.md
 ```
 
 buka file `blog-pertama.md` , akan tampil format berikut. Silahkan menambahkan tulisan pertama Anda.
 
-```bash
+```php
 title: "My First Blog"
 date: 2019-03-26T08:47:11+01:00
 draft: true
@@ -83,11 +83,11 @@ draft: true
 ## Step 5. Start a Hugo Server
 
 Sekarang, jalankan Hugo Server untuk melihat tampilan website Anda.
-```bash
+```php
 hugo server
 ```
 ---
-```bash
+```php
 ▶ hugo server
 
                    | EN
@@ -115,7 +115,7 @@ Jalankan pada browser Anda `http://localhost:1313/`
 Untuk melakukan configurasi pada website Hugo anda, silahkan untuk mengeksplor file `config.toml`
 
 ---
-```bash
+```php
 baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
