@@ -1,11 +1,12 @@
 ---
 draft: false
 date: 2021-12-21T18:56:35+08:00
-title: "Eight Artikel"
+title: "Membuat Aplikasi Mobile dengan KivyMD"
 slug: eight-artikel
 
 tags:
     - Python
+    - KivyMD
 
 categories:
     - Pemrograman

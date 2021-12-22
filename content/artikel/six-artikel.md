@@ -1,10 +1,11 @@
 ---
 draft: false
 date: 2021-12-21T01:03:53+08:00
-title: "Six Artikel"
+title: "Django Pemula | Bagian 1"
 slug: six-artikel
 
 tags:
+    - Django
     - Python
 
 categories:
