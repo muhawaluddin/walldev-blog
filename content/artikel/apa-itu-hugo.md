@@ -45,4 +45,4 @@ Keunggulan menggunakan SSG :
 - Lebih aman
 - Tersedia banyak hosting Gratis
 
-Ikuti tutorial install Hugo [Disini](https://gohugo.io/)
+Ikuti tutorial install Hugo [Disini](https://walldevblog.netlify.app/first-artikel/)
