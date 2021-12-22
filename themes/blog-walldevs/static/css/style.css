@@ -4,10 +4,12 @@ body {
 
 .navbar {
     background-color: #17A2B8;
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
 }
 
 .img-wall {
     border: 7px solid;
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
 }
 
 img .card-img-top{
