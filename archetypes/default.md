@@ -1,6 +1,6 @@
 ---
 draft: true
-date: {{ .Date | time.Format ":date_full" }}
+date: {{ .Date }}
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: {{ .BaseFileName }}
 
