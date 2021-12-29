@@ -13,8 +13,8 @@ categories:
     - Multimedia
 
 
-image: https://images.unsplash.com/photo-1621600411688-4be93cd68504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29mdHdhcmUlMjBlZGl0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
-thumbnail: https://images.unsplash.com/photo-1621600411688-4be93cd68504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29mdHdhcmUlMjBlZGl0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+image: https://images.unsplash.com/photo-1526698905402-e13b880ad864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+thumbnail: https://media.istockphoto.com/photos/young-caucasian-female-programmer-in-glasses-writes-program-code-on-a-picture-id1255928059?b=1&k=20&m=1255928059&s=170667a&w=0&h=MTIL0g4Yo1_CUECfmqMPRTt2B3w8kZu6IzTliVlKXdg=
 ---
 
 # Aplikasi Editing Video di Linux
