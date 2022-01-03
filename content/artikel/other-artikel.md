@@ -6,6 +6,7 @@ slug: other-artikel
 
 tags:
     - Python
+    - PHP
 
 categories:
     - Pemrograman
