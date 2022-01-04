@@ -42,7 +42,7 @@
             {{  with .Params.tags }}
                 {{range .}}
                     <li>
-                        <a href="/tags/{{ . | urlize}}" class="btn btn-info btn-sm">{{ . }} </a>
+                        <a href="/tags/{{ . | urlize}}" class="btn btn-outline-info btn-sm" style="margin-top: 3px;">{{ . }} </a>
                     </li>
                 {{ end }}
             {{ end }}
