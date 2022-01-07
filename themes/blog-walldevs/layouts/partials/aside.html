@@ -61,7 +61,7 @@
             {{  with .Params.tags }}
                 {{range .}}
                     <li>
-                        <a href="/tags/{{ . | urlize}}" class="btn btn-outline-info btn-sm" style="margin-top: 3px;">{{ . }} </a>
+                        <a href="/tags/{{ . | urlize}}" class="badge badge-warning text-wrap" style="margin-top: 3px;">{{ . }} </a>
                     </li>
                 {{ end }}
             {{ end }}

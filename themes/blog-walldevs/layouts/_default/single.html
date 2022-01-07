@@ -32,7 +32,7 @@
                                     <hr>
                                     <div>
                                         {{ range .Params.tags }}
-                                        <span class="badge badge-info">
+                                        <span class="badge badge-info text-warp">
                                              #<a class="text-white" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
                                         </span> 
                                         {{ end }}
