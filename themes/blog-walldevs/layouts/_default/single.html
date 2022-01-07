@@ -29,13 +29,15 @@
                                     <h2 class="card-title mb-3 judul-artikel">{{ .Title }}</h2>
 
                                     <hr>
-
                                     <div>
                                         {{ range .Params.tags }}
                                         <span class="badge badge-info">
                                              #<a class="text-white" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
                                         </span> 
                                         {{ end }}
+                                    </div>
+                                    <div class="sticky-top">
+                                        {{ partial "share-btn.html" . }} 
                                     </div>
                                 </div>
                                 <div class="post-content">
