@@ -42,7 +42,7 @@
                       {{ with .Params.image }}<img src=""....>{{ end }}
                     </a>
                     <div class="post-body">
-                      <small class="text-capitalize"> {{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
+                      <small class="text-capitalize badge badge-info text-wrap"> {{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
                       <a href="{{ .Permalink }}">
                         <h6>{{ .Title }}</h6>
                       </a>
