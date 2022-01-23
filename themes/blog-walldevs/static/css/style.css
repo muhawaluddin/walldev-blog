@@ -1,6 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .navbar {
@@ -14,7 +13,7 @@ body {
 }
 
 .judul-card h4 {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-weight : 500;
 }
 
@@ -27,14 +26,15 @@ body {
 }
 
 .post-header h2 {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 40px;
 }
 
 .post-content  {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 17px;
+    line-height: 1.4211;
+    font-weight: 400;
+    letter-spacing: .012em;
 }
 
 .post-content h2, 
@@ -42,7 +42,7 @@ body {
 .post-content h4, 
 .post-content h5,
 .post-content h6 {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin: 1em 0;
 }  
 
@@ -57,6 +57,9 @@ body {
 }
 
 .judul-artikel {
-    font-weight: 550;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 700;
+    letter-spacing: -.003em;
 }
 
